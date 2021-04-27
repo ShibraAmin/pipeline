@@ -4,7 +4,6 @@ phases:
   build:
     commands:
       - mv wp-config-sample.php wp-config.php
-      - mv index.html /home/ubuntu
       - sed -i 's/database_name_here/codepipe/' wp-config.php 
       - sed -i 's/username_here/codepipe/' wp-config.php
       - sed -i 's/password_here/codepipe/' wp-config.php
