@@ -1,6 +1,6 @@
 version: 0.2
 env: 
-  parameter store: 
+  parameter-store: 
     DBNAME: "DB_NAME"
     UNAME: "DB_USER"
     DBPASS: "DB_PASSWORD"
