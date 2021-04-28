@@ -9,10 +9,10 @@ phases:
   build:
     commands:
       - mv wp-config-sample.php wp-config.php
-      - sed -i  's|database_name_here|${DBNAME}|' wp-config.php 
-      - sed -i  's|username_here|${UNAME}|' wp-config.php
-      - sed -i  's|password_here|${DBPASS}|' wp-config.php
-      - sed -i  's|localhost|${LHOST}|' wp-config.php
+      - sed -i  's|database_name_here|'${DBNAME}'|' wp-config.php 
+      - sed -i  's|username_here|'${UNAME}'|' wp-config.php
+      - sed -i  's|password_here|'${DBPASS}'|' wp-config.php
+      - sed -i  's|localhost|'${LHOST}'|' wp-config.php
 artifacts:
   files:
     - "**/*"
