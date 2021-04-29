@@ -1,10 +1,10 @@
 version: 0.2
 env: 
   parameter-store: 
-    DBNAME: "DB_NAME"
-    UNAME: "DB_USER"
-    DBPASS: "DB_PASSWORD"
-    LHOST: "DB_HOST"
+    DBNAME: "/CodeBuild/DB_NAME"
+    UNAME: "/CodeBuild/DB_USER"
+    DBPASS: "/CodeBuild/DB_PASSWORD"
+    LHOST: "/CodeBuild/DB_HOST"
 phases:
   build:
     commands:
