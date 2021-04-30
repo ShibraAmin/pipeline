@@ -85,7 +85,7 @@ define( 'WP_DEBUG', false );
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'https://shibra-lb.squareops.xyz');
+define('WP_HOME', 'https://shibra-lb.squareops.xyz');
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
