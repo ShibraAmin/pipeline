@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf index.html
+rm -rf /var/www/html/index.html
 systemctl start apache2
 
